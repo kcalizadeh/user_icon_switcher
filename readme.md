@@ -1,4 +1,4 @@
-###User Icon Switcher
+### User Icon Switcher
 
 This script takes icons from a user-designated folder, selects one randomly, and places it in the relevant system folder. The result is a random selection of user profile icons.
 
