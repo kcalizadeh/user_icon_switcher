@@ -10,7 +10,7 @@ To use:
 You can then run the script manually or set it up to run at system boot or shutdown, for example by adding to the exec-once section of your hyprland config. 
 
 Notes:
-- icons typically must be in png. 
+- Icons typically must be in png. 
 - Plasma looks for an icon named '<user>' in the relevant folder; other tools prefer names like 'face' or 'face.icon'. You may need to change the renaming section of the script accordingly.
 - Plasma will automatically crop your icon to a circle, centered on the center of the image.
 
