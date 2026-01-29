@@ -10,4 +10,4 @@ RANDOM_FILE=$(ls $SOURCE_DIR | shuf -n 1)
 
 cp -f "$SOURCE_DIR"/"$RANDOM_FILE" "$DEST_DIR"/"$USERNAME"
 
-echo "random icon set to $RANDOM_FILE"
+echo "icon set to $RANDOM_FILE"
