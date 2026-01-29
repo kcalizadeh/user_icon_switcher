@@ -1,6 +1,6 @@
 ### User Icon Switcher
 
-This script takes icons from a user-designated folder, selects one randomly, and places it in the relevant system folder. The result is a random selection of user profile icons.
+This script takes icons from a user-designated folder, selects one randomly, and places it in the relevant system folder. The result is a randomized change to the user profile icon. This can then be set to run automatically so you get a new icon with every session.
 
 To use:
 - Create a folder to store the selection of random profile pictures in. Script defaults to ~/home/<user>/Pictures/user_icons. Modify the SOURCE_DIR variable with the appropriate path.
