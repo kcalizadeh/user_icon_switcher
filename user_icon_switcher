@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# source, destination, username
+SOURCE_DIR="/home/<user>/Pictures/user_icons"
+DEST_DIR="/var/lib/AccountsService/icons"
+USERNAME="<user>"
+
+# get a random file
+RANDOM_FILE=$(ls $SOURCE_DIR | shuf -n 1)
+
+cp -f "$SOURCE_DIR"/"$RANDOM_FILE" "$DEST_DIR"/"$USERNAME"
+
+echo "random icon set to $RANDOM_FILE"
